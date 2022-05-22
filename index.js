@@ -1,7 +1,7 @@
 const fs = require('fs')
 const { DxfParser, toGeojson } = require('dxf2json')
 
-const fileName = 'mine';
+const fileName = '2a';
 
 new DxfParser().init(`./assets/${fileName}.dxf`)
   .then(result => {
