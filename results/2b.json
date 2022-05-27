@@ -3,8 +3,8 @@
     "$ACADVER": "AC1021",
     "$DWGCODEPAGE": "ANSI_1252",
     "$INSBASE": { "x": 0, "y": 0, "z": 0 },
-    "$EXTMIN": { "x": -10.0263096, "y": -28.0423001, "z": 0 },
-    "$EXTMAX": { "x": 6.0861659, "y": -21.0722431, "z": 0 },
+    "$EXTMIN": { "x": -81.1261057, "y": -372.4318182, "z": 0 },
+    "$EXTMAX": { "x": 81.1261057, "y": 160, "z": 0 },
     "$LIMMIN": { "x": 0, "y": 0 },
     "$LIMMAX": { "x": 420, "y": 297 },
     "$ORTHOMODE": 0,
@@ -259,7 +259,7 @@
           "name": "*ACTIVE",
           "lowerLeftCorner": { "x": 0, "y": 0 },
           "upperRightCorner": { "x": 1, "y": 1 },
-          "center": { "x": 5.732319, "y": -4.2815469 },
+          "center": { "x": 458.9334825, "y": 202.8619017 },
           "snapBasePoint": { "x": 0, "y": 0 },
           "snapSpacing": { "x": 10, "y": 10 },
           "gridSpacing": { "x": 10, "y": 10 },
@@ -520,40 +520,10 @@
       },
       "colorIndex": 7,
       "lineWeight": 25,
-      "center": { "x": 0, "y": 25 },
-      "radius": 46.5,
-      "startAngle": 262.5,
-      "endAngle": 277.5
-    },
-    {
-      "type": "ARC",
-      "handle": "4E",
-      "layer": "0",
-      "lineType": "CONTINUOUS",
-      "color": {
-        "colorIdx": 7,
-        "decimal": 16777215,
-        "rgb": { "r": 255, "g": 255, "b": 255 },
-        "hexCode": "#ffffff"
-      },
-      "colorIndex": 7,
-      "lineWeight": 25,
-      "center": { "x": -6.5263096, "y": -24.5722431 },
+      "center": { "x": 6.5263096, "y": -24.5722431 },
       "radius": 3.5,
-      "startAngle": 82.5,
-      "endAngle": 262.5
-    },
-    {
-      "type": "LINE",
-      "handle": "4F",
-      "layer": "0",
-      "lineType": "ByLayer",
-      "colorIndex": 256,
-      "lineWeight": -1,
-      "vertices": [
-        { "x": -7.0061677, "y": -27.9892862 },
-        { "x": 6.0861659, "y": -21.1246572 }
-      ]
+      "startAngle": 277.5,
+      "endAngle": 97.5
     }
   ],
   "THUMBNAIL": {}
